@@ -7,11 +7,15 @@ public class Employee {
     private int salary;
     public double newSalary;
 
-    public Employee(int id1, String firstName1, String lastName1, int salary1) {
-        this.id = id1;
-        this.firstName = firstName1;
-        this.lastName = lastName1;
-        this.salary = salary1;
+    public Employee() {
+        
+    }
+
+    public Employee(int id1, String firstName, String lastName, int salary) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.salary = salary;
 
     }
 

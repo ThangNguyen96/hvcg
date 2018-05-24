@@ -14,8 +14,8 @@ public class SimpleCircle {
     public double getRadius() {
         return radius;
     }
-    public void setRadius(double newRadius) {
-        radius = newRadius;
+    public void setRadius(double radius) {
+        this.radius = radius;
     }
     public double getArea() {
         return radius*radius*Math.PI;
